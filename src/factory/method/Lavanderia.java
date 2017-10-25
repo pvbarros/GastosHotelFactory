@@ -1,0 +1,10 @@
+package factory.method;
+
+public class Lavanderia implements Gastos{
+
+	@Override
+	public void exibirInfo() {
+		System.out.println("Gasto: Lavanderia\nTipo de gasto: Serviço");
+	}
+
+}
